@@ -52,6 +52,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - enumerate-headings
   - git-revision-date
   - bootstrap-tables
   - macros:
