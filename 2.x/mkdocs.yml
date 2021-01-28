@@ -6,11 +6,11 @@ site_description: Percona Monitoring and Management Documentation
 site_author: Percona LLC
 copyright: Percona LLC, &#169; 2020
 use_directory_urls: false
-docs_dir: docs
+site_dir: ../site/2.x
 
 theme:
     name: material
-    custom_dir: theme
+    custom_dir: ../theme
     language: en
     palette:
         primary: deep-orange
@@ -24,8 +24,8 @@ theme:
 extra_css:
   - https://unicons.iconscout.com/release/v3.0.3/css/line.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
-  - css/version-select.css
-  - css/toctree.css
+  - ../../css/version-select.css
+  - ../../css/toctree.css
 
 extra_javascript:
   - js/version-select.js
