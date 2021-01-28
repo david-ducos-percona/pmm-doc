@@ -6,20 +6,12 @@ site_description: Percona Monitoring and Management Documentation
 site_author: Percona LLC
 copyright: Percona LLC, &#169; 2020
 use_directory_urls: false
-docs_dir: docs
+docs_dir: docs/2.x
+site_dir: site/2.x
 
 theme:
     name: material
     custom_dir: theme
-    language: en
-    palette:
-        primary: deep-orange
-        accent: white
-    font:
-        text: Chivo
-        code: Roboto Mono
-    logo: _images/pmm-doc-logo.svg
-    favicon: _images/percona_favicon.ico
 
 extra_css:
   - https://unicons.iconscout.com/release/v3.0.3/css/line.css
